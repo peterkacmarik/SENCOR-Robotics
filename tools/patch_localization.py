@@ -81,5 +81,6 @@ def patch(lang, index):
     print(lang, "filled", changed, "keys ->", out)
 
 
-patch("sk", 0)
-patch("cs-cz", 1)
+if __name__ == "__main__":
+    patch("sk", 0)
+    patch("cs-cz", 1)

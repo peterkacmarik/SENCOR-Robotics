@@ -1,10 +1,6 @@
-import json, os
-
-T = {}
-src = open("patch_localization.py", encoding="utf-8").read()
-ns = {}
-exec(compile(src, "patch_localization.py", "exec"), ns)
-T = ns["T"]
+import json, os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from translations_all import T
 
 keys = sorted(T)
 sk = [T[k][0] for k in keys]

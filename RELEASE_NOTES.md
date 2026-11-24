@@ -5,7 +5,7 @@ patch for SENCOR Robotics **5.0.7** that fixes:
 
 - startup crash on MIUI/HyperOS (POCO, Android 14) caused by `Window.getInsetsController()`
   being called before `DecorView` exists;
-- 58 missing Slovak/Czech `CWF_*` translations that appeared as raw keys in the UI.
+- 319 missing Slovak/Czech translations (`CL_*`, `CT_*`, `CWF_*`, `FUN_*`, `LG_*`, `MA_*`, ...) that appeared as raw keys in the UI.
 
 Clone the repo, supply your own legally obtained original APK (SHA256
 `D4B325BEAE61B487BE24F138FEBAA24A13DF05FD55A09F7598F3FE0CFB392598`), then follow `BUILD.md`.

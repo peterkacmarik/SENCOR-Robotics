@@ -8,7 +8,7 @@ This repo contains a reproducible patch that you apply to **your own, legally ob
 1. **Startup crash on MIUI / HyperOS (POCO, Android 14)** – `LogoActivity.initSystemBarColor()`
    called `Window.getInsetsController()` before the `DecorView` existed → `NullPointerException`
    and an immediate force-stop. A small `ContentProvider` pre-creates the decor view.
-2. **Missing Slovak/Czech translations** – 58 `CWF_*` keys had empty values in the built-in
+2. **Missing Slovak/Czech translations** – 319 keys (`CL_*`, `CT_*`, `CWF_*`, `FUN_*`, `LG_*`, `MA_*`, ...) had empty values in the built-in
    language packs, so the app displayed raw keys (`CWF_AutoFind`, `CWF_AddManully`, ...).
    The provider injects the missing translations at runtime into `LanguageParserTool.languageMap`.
 
