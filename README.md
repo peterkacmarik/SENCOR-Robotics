@@ -25,6 +25,22 @@ because the iJiami packer kills the app if assets are modified.
 | Original SHA256 | `D4B325BEAE61B487BE24F138FEBAA24A13DF05FD55A09F7598F3FE0CFB392598` |
 | Tested devices | POCO `munch_eea` / Android 14 (MIUI), AVD Android 15 |
 
+## Supported robot models (manual add)
+
+The app can add robot vacuums **manually** (Add device → *Add manually* / manual selection,
+`CWF_AddManully`). The following SENCOR models are supported in manual mode:
+
+- SRV 8250BK
+- SRV 4200BK
+- SRV 9200BK
+- SRV 9250BK
+- SRV 6250BK
+- SRV 4250SL
+- SRV 4000GD
+
+If automatic discovery/BLE pairing does not find your robot, use the manual flow and pick the
+matching model from this list.
+
 ## Quick start
 
 ```powershell
