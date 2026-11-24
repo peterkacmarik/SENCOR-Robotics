@@ -1,0 +1,30 @@
+# Build artifacts
+*.apk
+*.ap_
+*.aab
+*.idsig
+*.keystore
+*.jks
+*.so
+*.dex
+out/
+build/
+dist/
+*_raw.apk
+signed/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs / temp
+*.log
+tmp/
+temp/
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
